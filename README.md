@@ -8,7 +8,7 @@ What is needed:
 
 # Installation:
 
-$ curl -sSL https://github.com/pgoddijn/rpi-chromium_dashboard/configure.sh | sh
+'curl -sSL https://github.com/pgoddijn/rpi-chromium_dashboard/configure.sh | sh'
 
 Okay, that is very unsafe (vulnerable to server side detection which can be abused, read more here: https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/), so you should try this command:
 
