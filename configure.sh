@@ -8,12 +8,12 @@ sed -i \'s/\"exited_cleanly\":false/\"exited_cleanly\":true/\' ~/.config/chromiu
 
 chmod 760 ~/.config/lxsession/LXDE-pi/chromiumsed.sh
 
-echo '
+echo \'
 @xset s off
 @xset -dpms
 @xset s noblank
 @unclutter -idle 1
 @~/.config/lxsession/LXDE-pi/chromiumsed.sh
 
-@chromium-browser --noerrdialogs --kiosk' >> ~/.config/lxsession/LXDE-pi/autostart
+@chromium-browser --noerrdialogs --kiosk\' >> ~/.config/lxsession/LXDE-pi/autostart
 
