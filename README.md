@@ -8,11 +8,11 @@ What is needed:
 
 # Installation:
 
-    curl -sSL https://github.com/pgoddijn/rpi-chromium_dashboard/configure.sh | sh
+    curl -sSL https://raw.githubusercontent.com/pgoddijn/rpi-chromium_dashboard/master/configure.sh | sh
 
 Okay, that is **very unsafe** (vulnerable to server side detection which can be abused, read more here: https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/), so you should try this command:
 
-    sh -c "$(curl -Ssl https://github.com/pgoddijn/rpi-chromium_dashboard/configure.sh)"
+    sh -c "$(curl -Ssl https://raw.githubusercontent.com/pgoddijn/rpi-chromium_dashboard/master/configure.sh)"
 
 Now, that's still pretty unsafe if you don't know what the script really does, so you should always download it and check the script yourself before running it ;-)
 
@@ -27,4 +27,6 @@ Last, it adds basic config to the autostart file. This config disables the scree
 
 You can always quit the browser with Alt+F4, start Chromium normally and configure it to start with the pages you want, install plugins, etc. Just reboot afterwards and those settings will still be there.
 
-~~Enjoy!~~ When it's done, it's done. If you're impatient, please feel free to fork and write your own script ;-)
+~~When it's done, it's done. If you're impatient, please feel free to fork and write your own script ;-)~~
+
+Enjoy!
