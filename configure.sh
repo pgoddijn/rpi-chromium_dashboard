@@ -9,11 +9,6 @@ sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/Defa
 chmod 760 ~/.config/lxsession/LXDE-pi/chromiumsed.sh
 
 echo '
-@lxpanel --profile LXDE-pi
-@pcmanfm --desktop --profile LXDE-pi
-@xscreensaver -no-splash
-@point-rpi
-
 @xset s off
 @xset -dpms
 @xset s noblank
