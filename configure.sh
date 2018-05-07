@@ -13,6 +13,6 @@ echo '
 @xset -dpms
 @xset s noblank
 @unclutter -idle 1
-@~/.config/lxsession/LXDE-pi/chromiumsed.sh
+@/home/pi/.config/lxsession/LXDE-pi/chromiumsed.sh
 
 @chromium-browser --noerrdialogs --kiosk' >> ~/.config/lxsession/LXDE-pi/autostart
