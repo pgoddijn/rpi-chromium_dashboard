@@ -15,4 +15,4 @@ echo '
 @unclutter -idle 1
 @~/.config/lxsession/LXDE-pi/chromiumsed.sh
 
-@chromium-browser --noerrdialogs --kiosk\' >> ~/.config/lxsession/LXDE-pi/autostart
+@chromium-browser --noerrdialogs --kiosk' >> ~/.config/lxsession/LXDE-pi/autostart
