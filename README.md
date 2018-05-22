@@ -21,7 +21,7 @@ Now, that's still pretty unsafe if you don't know what the script really does, s
 
 The only thing you want to install yourself is "unclutter" because I don't want to make you run this script with elevated privileges.
 
-   sudo apt install unclutter
+    sudo apt install unclutter
 
 I put "unclutter -idle 1" in the Pi's autostart file so you don't have to ;)
 
